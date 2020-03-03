@@ -1,0 +1,15 @@
+:root{
+    --grid-resolution:1;
+}
+
+
+#container{
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(var(--grid-resolution),1fr);
+    grid-template-columns: repeat(var(--grid-resolution),1fr);
+
+
+}
