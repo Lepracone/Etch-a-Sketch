@@ -2,6 +2,9 @@
     --grid-resolution:1;
 }
 
+html{
+    font-family: 'Black Han Sans', sans-serif;
+}
 
 #container{
     width: 800px;
@@ -10,6 +13,46 @@
     display: grid;
     grid-template-rows: repeat(var(--grid-resolution),1fr);
     grid-template-columns: repeat(var(--grid-resolution),1fr);
+    margin: auto;
 
 
 }
+
+button{
+    padding: 5px 8px;
+    border: 3px solid #153243;
+    border-radius: 5px;
+    background-color: #588B8B;
+    color:#153243;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+#divButton{
+    margin:auto;
+    width: 100px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 300;
+    margin:auto;
+    width:500px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#resolutionSet{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#form input{
+ width: 30px;
+ text-align: center;
+}
+
